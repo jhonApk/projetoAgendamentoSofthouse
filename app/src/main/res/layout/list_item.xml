@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="16sp"
+    app:cardElevation="8sp"
+    android:layout_margin="8sp"
+    app:cardMaxElevation="5sp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_height="78dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_calendar_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sun"
+            style="@style/TextAppearance.MaterialComponents.Overline"/>
+
+        <TextView
+            android:id="@+id/tv_calendar_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.MaterialComponents.Subtitle1"
+            android:text="7"
+            android:layout_marginTop="4dp"/>
+
+    </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="289sp"
+            android:src="@drawable/ic_more_vert_24" />
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

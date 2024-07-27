@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/menu_agendamento"
+        android:title="Agendamento"
+        android:icon="@drawable/ic_calendar"/>
+
+    <item
+        android:id="@+id/menu_add"
+        android:title="Novo"
+        android:icon="@drawable/baseline_add_circle_24"
+        />
+
+    <item
+        android:id="@+id/menu_grupos"
+        android:title="Grupos Agendados"
+        android:icon="@drawable/groups_2_24"/>
+
+    <item
+        android:id="@+id/menu_perfil"
+        android:title="Perfil"
+        android:icon="@drawable/ic_person"/>
+</menu>
